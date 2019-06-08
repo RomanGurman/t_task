@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Doc</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <table id="myTable">
+      <tr id="check">
+      <th>Field</th>
+      <th>Element type</th>
+      <th>Required?</th>
+      <th>Minimum</th>
+      <th>Maximum</th>
+      <th>Data type</th>
+      </tr>
+      <tr>
+      <td>Name</td>
+      <td>Input</td>
+      <td>Yes</td>
+      <td>1</td>
+      <td>100</td>
+      <td>Alpha</td>
+     </tr>
+      <tr>
+      <td>Address1</td>
+      <td>Input</td>
+      <td>Yes</td>
+      <td>1</td>
+      <td>100</td>
+      <td>Alphanumeric</td>
+      </tr>
+      <tr>
+      <td>Address2</td>
+      <td>Input</td>
+      <td>No</td>
+      <td>0</td>
+      <td>100</td>
+      <td>Alphanumeric</td>
+      </tr>
+      <tr>
+      <td>City</td>
+      <td>Input</td>
+      <td>Yes</td>
+      <td>1</td>
+      <td>50</td>
+      <td>Alphanumeric</td>
+      </tr>
+      <tr>
+      <td>State</td>
+      <td>Select</td>
+      <td>Yes</td>
+      <td>2</td>
+      <td>2</td>
+      <td>Alpha</td>
+      </tr>
+      <tr>
+      <td>Zip Code</td>
+      <td>Input</td>
+      <td>Yes</td>
+      <td>5</td>
+      <td>5</td>
+      <td>Numeric</td>
+      </tr>        
+      </table>
+      <button onclick="click()">Ok</button>
+      <button onclick="removeTable()">Cancel</button>
+
+  <script src="script.js"></script>
+  </body>
+  </html>
